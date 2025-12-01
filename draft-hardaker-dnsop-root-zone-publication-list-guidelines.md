@@ -77,7 +77,31 @@ or any other entity wishing to build such a list of sources.
 
 # Guidelines for building a IANA DNS root zone publication list
 
+The following describes the community established guidelines when
+developing a list of IANA DNS root zone publication points:
 
+## Guidelines related to the list of publication points
+
+- the list of publication points must not be limited to an particular size
+
+- the list of publication points should include publication points
+  hosted from multiple organizations
+  
+- the list of publication points should include a service endpoint
+  from IANA itself.
+
+## Guidelines related to entries in the list of publication points
+
+- each publication point should make use of widely geographically
+  distributed service points.
+  
+- each publication point should be robust in its own right
+
+- https based publication points should offer service equivalent to
+  existing Content Delivery Networks (CDNs) today.
+
+- AXFR, IXFR and XoT publication points should be as robust as the
+  existing DNS root servers that offer similar services today.
 
 # Security Considerations {#security}
 
