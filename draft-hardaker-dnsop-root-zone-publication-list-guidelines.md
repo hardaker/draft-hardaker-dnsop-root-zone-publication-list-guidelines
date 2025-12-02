@@ -1,6 +1,6 @@
 ---
-title: "The DNS XFR URI Schemes"
-abbrev: "DNS XFR URI Schemes"
+title: "Guidelines for IANA DNS Root Zone Publication List Providers"
+abbrev: "DNS Root Zone Publication List Guidelines"
 category: info
 
 docname: draft-hardaker-dnsop-root-zone-publication-list-guidelines-latest
