@@ -88,39 +88,39 @@ developing a list of IANA DNS root zone publication points:
 
 - the list of publication points should include publication points
   hosted from multiple organizations.
-  
+
 - the list of publication points should include a service endpoint
   from IANA itself.
-  
+
 - the list of publication points must be verifiable as complete
   through the use of a cryptographic checksum.
-  
+
 - the list of publication points should be cryptographically
   verifiable as to its origin.
-  
+
 - the list of publication points must include multiple fetching
   protocols.  Specifically it is recommended that it include both
   https and AXFR based sources.
-  
+
 - each item in the list of publication points must be individually
   complete and usable in isolation.
-  
+
 - each item in the list of publication points must be a unique URL.
 
 - each item in the list of publication points should be routinely
   verified as to its functioning status or else removed from the list.
-  
+
 ## Guidelines related to entries in the list of publication points
 
 - each publication point should make use of widely geographically
   distributed service points.
-  
+
 - each publication point must be globally available without imposed
   source-based or other filtering.
-  
+
 - each publication point should be robust in its own right, with its
   contents verifiable as being complete as to the full contents of the
-  IANA DNS root zone. 
+  IANA DNS root zone.
 
 - https based publication points should offer service equivalent to
   existing Content Delivery Networks (CDNs) today.
