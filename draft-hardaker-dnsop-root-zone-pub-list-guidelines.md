@@ -3,7 +3,7 @@ title: "Guidelines for IANA DNS Root Zone Publication List Providers"
 abbrev: "DNS Root Zone Publication List Guidelines"
 category: info
 
-docname: draft-hardaker-dnsop-root-zone-publication-list-guidelines-latest
+docname: draft-hardaker-dnsop-root-zone-pub-list-guidelines-latest
 submissiontype: IETF
 consensus: true
 v: 3
@@ -47,9 +47,9 @@ informative:
 
 This document describes guidelines for entities that wish to publish a
 list of URLs from where the contents of the IANA DNS root zone may be
-obtained.  These guidelines are specifically suggested to IANA, but
-may be applicable to any entity wishing to build a list of IANA DNS root zone
-sources.
+obtained.  These guidelines are specifically provided as guidance to
+IANA, but these suggestions may be applicable to any entity wishing to
+build a list of IANA DNS root zone sources for their own purposes.
 
 --- middle
 
