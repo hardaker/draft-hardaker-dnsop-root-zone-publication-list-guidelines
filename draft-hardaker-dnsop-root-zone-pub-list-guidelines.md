@@ -28,6 +28,10 @@ author:
     fullname: Wes Hardaker
     organization: Google, Inc.
     email: ietf@hardakers.net
+  -
+    fullname: Warren Kumari
+    organization: Google, Inc.
+    email: warren@kumari.net
 
 normative:
   RFC3986:
@@ -107,13 +111,12 @@ developing a list of IANA DNS root zone publication points:
 
 - the list of publication points should be cryptographically
   verifiable as to its origin.
-
 - the list of publication points should include multiple protocols
   that can be used for fetching the IANA root zone data.  Specifically
   the list should include both https and AXFR based sources.
 
 - each item in the list of publication points must be individually
-  complete and usable in isolation.
+  complete and usable in isolation
 
 - each item in the list of publication points must be a unique URL.
 
