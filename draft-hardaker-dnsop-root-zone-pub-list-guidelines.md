@@ -96,7 +96,7 @@ developing a list of IANA DNS root zone publication points:
 
 ## Guidelines related to the list of publication points
 
-- the list of publication points must be machine readable
+- the list of publication points must be machine readable.
 
 - the list of publication points must not be limited to a particular size.
 
@@ -111,14 +111,20 @@ developing a list of IANA DNS root zone publication points:
 
 - the list of publication points should be cryptographically
   verifiable as to its origin.
+
 - the list of publication points should include multiple protocols
   that can be used for fetching the IANA root zone data.  Specifically
   the list should include both https and AXFR based sources.
 
 - each item in the list of publication points must be individually
-  complete and usable in isolation
+  complete and usable in isolation.
 
 - each item in the list of publication points must be a unique URL.
+
+- the publication list should contain a variety of protocols for
+  LocalRoot implementations to make use of based on implementation and
+  operator preference.  For example, the list should contain URLs of
+  "http", "https", "axfr", "xot" and "xoh" schemes if possible.
 
 - each item in the list of publication points should be routinely
   verified as to its functioning status or else removed from the list.
