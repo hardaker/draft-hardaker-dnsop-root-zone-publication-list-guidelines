@@ -144,6 +144,10 @@ developing a list of IANA DNS root zone publication points:
   operator preference.  For example, the list should contain URLs of
   "http", "https", "axfr", "xot" and "xoh" schemes if possible.
 
+- at least some publication points should offer usage over direct IPv4
+  and IPv6 addresses rather than DNS based names in order to
+  potentially avoid the need for bootstrapping over regular DNS.
+
 - each item in the list of publication points should be routinely
   verified as to its functioning status or else removed from the list.
 
